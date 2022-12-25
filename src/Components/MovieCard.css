@@ -1,0 +1,50 @@
+.movieCard {
+  background-color: white;
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  transition: trasform 100ms ease-out;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.movieCard:hover {
+  transform: scale(1.1);
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer > img {
+  /* height: 200px; */
+  overflow: hidden;
+  box-shadow: 0px 0px 15px 0px;
+  /* object-fit: contain;
+  width: 500px; */
+}
+
+.movieCardContent {
+  margin: 1rem;
+  margin-top: 0.5rem;
+}
+
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.movieCardTitle {
+  margin-bottom: 0.5rem;
+}
+
+.movieCardBody {
+  margin-bottom: 0.5rem;
+}
+
+.movieCardActions {
+  display: flex;
+  justify-content: center;
+}
